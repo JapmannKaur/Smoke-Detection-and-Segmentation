@@ -9,7 +9,17 @@ A customized ResNet-50 model is applied initially on the RGB GeoTIFF images to c
   <img src="classification.png" height=400px width=550px/>
   <h4 align="center">Classification on RGB Images</h4>
 </p>
+<br><br>
+<p align="center">
+  <img src="grayscale.png" height=400px width=550px/>
+  <h4 align="center">Classification on Grayscale Images</h4>
+</p>
 
 ### Segmentation
 Similarly, for segmentation, a customized U-Net model is employed initially on the RGB images where the boundaries of smoke are  highlighted. An IoU(Intersection-over-Union) metric is used as a measure to compare the ground truth smoke to the predicted smoke intensity. unlike classification, we obtain similar accuracy of approximately 94% in both RGB and grayscale images.
+<p align="center">
+  <img src="segmentation.png" height=400px width=550px/>
+  <h4 align="center">Segmentation on RGB Images</h4>
+</p>
+
 
