@@ -1,4 +1,6 @@
 # Smoke-Detection
+**In Collaboration with [@iamansingh0](https://github.com/iamansingh0)**
+
 In this study, we explore the potential of utilizing multiband image data from ESA's Sentinel-2 satellites, which are globally accessible and freely available, to detect and measure industrial smoke plumes. The concerned work is divided into 2 parts, classification and segmentation. Initially, it is performed on RGB images followed by Grayscale images to achieve enhanced performance.
 
 **Dataset:** Available at [zenodo](https://zenodo.org/record/4250706)
